@@ -1,8 +1,9 @@
-package com.wild.springannotations;
+package com.wild.springannotations.entities;
 
+import com.wild.springannotations.interfaces.Coach;
+import com.wild.springannotations.interfaces.FortuneService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Qualifier;
-import org.springframework.context.annotation.Scope;
 import org.springframework.stereotype.Component;
 
 import javax.annotation.PostConstruct;

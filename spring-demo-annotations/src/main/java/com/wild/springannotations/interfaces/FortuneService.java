@@ -1,4 +1,4 @@
-package com.wild.springannotations;
+package com.wild.springannotations.interfaces;
 
 public interface FortuneService {
 

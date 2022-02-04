@@ -1,5 +1,6 @@
-package com.wild.springannotations;
+package com.wild.springannotations.services;
 
+import com.wild.springannotations.interfaces.FortuneService;
 import org.springframework.stereotype.Component;
 
 @Component

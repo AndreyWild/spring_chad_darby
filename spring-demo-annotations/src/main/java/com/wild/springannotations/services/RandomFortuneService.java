@@ -1,11 +1,12 @@
-package com.wild.springannotations;
+package com.wild.springannotations.services;
 
+import com.wild.springannotations.interfaces.FortuneService;
 import org.springframework.stereotype.Component;
 
 import java.util.Random;
 
 @Component
-public class RandomFortuneService implements FortuneService{
+public class RandomFortuneService implements FortuneService {
 
     // create an array of strings
     private String[] data = {

@@ -1,5 +1,6 @@
 package com.wild.springannotations;
 
+import com.wild.springannotations.interfaces.Coach;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 
 public class AnnotationDemoApp {
